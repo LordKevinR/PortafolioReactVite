@@ -4,6 +4,7 @@ import Proyectos from './components/Proyectos'
 import Tecnologias from './components/Tecnologias'
 import SobreMi from './components/SobreMi'
 import ProyectosEnProceso from './components/ProyectosEnProceso'
+import Contacto from './components/Contacto'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <ProyectosEnProceso />
       <Tecnologias />
       <SobreMi />
+      <Contacto />
     </div>
   )
 }
