@@ -5,7 +5,7 @@ const Proyectos = () => {
 
         <div className=" md:grid md:grid-cols-2 max-w-[100rem] md:gap-16 mt-10 mx-auto ">
             
-              <a target="_blank" href="https://lordkevinrblogdecafeproject.netlify.app/" className="md:mb-16 mb-10">
+              <a target="_blank" href="https://lordkevinrblogdecafeproject.netlify.app/" className="md:mb-16 hover:scale-105 hover:transition-all hover:duration-300 duration-300 mb-10">
                <img  src="src/img/blogcafe.png" alt="proyecto blog de cafe" />
               </a>
               <div className="col-start-2  col-span-2" >
@@ -21,7 +21,7 @@ const Proyectos = () => {
                 </ul>
               </div>
             
-              <a target="_blank" href="https://citas-react-vite-tawildcss-more.netlify.app/"  className="mb-16">
+              <a target="_blank" href="https://citas-react-vite-tawildcss-more.netlify.app/"  className="mb-16 hover:scale-105 hover:transition-all hover:duration-300 duration-300">
               <img className="" src="src/img/veterinaria.png" alt="proyecto blog de cafe" />
               </a>
               <div className="col-start-2 col-span-2" >
@@ -29,16 +29,15 @@ const Proyectos = () => {
                 <ul className="mt-5 md:mb-0 mb-24 text-gray-700 font-bold text-xl">
                   <li>Tecnologias Usadas:</li>
                   <li>- React</li>
+                  <li>- TailWindCSS</li>
                   <li>- LocalStorage</li>
-                  <li>- JavaScript</li>
                   <li>- Responsive Desing</li>
                   <li>- HTML</li>
-                  <li>- CSS</li>
-                  <li>- Git</li>
+                  <li>- JavaScript</li>
                 </ul>
               </div>
             
-              <a target="_blank" href="https://lordkevinrmusicalfestivalproject.netlify.app" className="mb-16">
+              <a target="_blank" href="https://lordkevinrmusicalfestivalproject.netlify.app" className="mb-16 hover:scale-105 hover:transition-all hover:duration-300 duration-300">
               <img className="" src="src/img/festival.png" alt="proyecto blog de cafe" />
               </a>
               <div className="col-start-2 col-span-2" >
@@ -56,7 +55,7 @@ const Proyectos = () => {
               </div>
             
             
-              <a target="_blank" href="https://lordkevinrfrontstoreproject.netlify.app/" className="mb-16">
+              <a target="_blank" href="https://lordkevinrfrontstoreproject.netlify.app/" className="mb-16 hover:scale-105 hover:transition-all hover:duration-300 duration-300">
               <img className="" src="src/img/frontend.png" alt="proyecto blog de cafe" />
               </a>
               <div className="col-start-2 col-span-2" >
