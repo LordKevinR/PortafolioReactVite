@@ -1,43 +1,90 @@
 import { FlechaAbajo } from "./logos/FlechaAbajo"
+import { Linkedin } from './logos/Linkedin'
+import { Instagram } from './logos/Instagram'
+import { GitHub } from './logos/Github'
+import { Email } from './logos/Email'
 
 const Header = () => {
 
 
   return (
-    <div className="bg-teal-300 h-screen">
+    <div className="bg-gray-900">
 
       <nav className="md:flex 2xl:max-w-[100rem] mx-auto md:justify-around 2xl:justify-between text-center md:items-center px-2 py-1">
 
         <div>
           <a href="#">
-          <p className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-200 hover:p-2 p-2 text-2xl cursor-pointer mt-5 text-indigo-700">&lt;<span className="text-gray-700">KS</span>/&gt;</p>
+          <p className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-200 hover:p-2 p-2 text-2xl cursor-pointer mt-5 text-indigo-400">&lt;<span className="text-slate-300">KS</span>/&gt;</p>
 
           </a>
         </div>
 
-        <div className="md:flex mt-10 md:mt-5 grid gap-3 md:gap-6 ">
+        <div className="md:flex mt-5 md:mt-5 grid gap-3 md:gap-6 ">
 
-          <a href="#proyectos" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-gray-700">Proyectos</a>
+          <a href="#proyectos" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-slate-300">Proyectos</a>
 
-            <a href="#tecnologias" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-indigo-700">Tecnologías</a>
+            <a href="#tecnologias" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-indigo-400">Tecnologías</a>
 
-            <a href="#sobremi" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-gray-700">Sobre Mi</a>
+            {/* <a href="#sobremi" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-slate-300">Sobre Mi</a> */}
 
-            <a href="#contacto" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-indigo-700">Contacto</a>
+            <a href="#contacto" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-indigo-400">Contacto</a>
 
         </div>
 
       </nav>
-      <div className="h-screen mt-20 md:mt-0 ">
-        <h1 className="font-black text-5xl text-gray-700  pt-10 md:pt-[20rem] xl:pt-[20rem] 2xl:pt-[25rem] text-center"
-          >Kevin Sánchez <span className="text-indigo-700">-</span> Portafolio
+      <div className="mt-10 md:mt-0 ">
+
+        <h1 className="font-black text-5xl animate-pulse text-slate-300  pt-10 md:pt-[10rem] xl:pt-[10rem] 2xl:pt-[15rem] text-center"
+          >Kevin Sánchez <span className="text-indigo-400">-</span> Portafolio
           </h1>
-          <p className="text-center mt-5 font-black text-2xl pb-10 text-gray-700">
-            Junior <span className="text-indigo-700">Fullstack</span> Developer  
+
+          <p className="text-center mt-5 font-black text-2xl pb-10 text-slate-300">
+            Junior <span className="text-indigo-400">.NET / Fullstack</span> Developer  
           </p>
-          <p className="grid md:mt-24 lg:mt-10 animate-bounce place-items-center text-5xl ">
+
+          <div className="w-full place-items-center">
+            <p className="text-white text-center font-bold text-xl">
+                Estudiante Universitario, <span className="text-indigo-400">Programador Freelancer,</span>
+            </p>
+            <p className="text-white text-center font-bold text-xl">
+                Obsesionado con el estudio y del aprendizaje continuo
+            </p>
+          </div>
+
+
+          <section className='flex flex-wrap gap-5 text-white mt-10 justify-center'>
+
+            <div className="flex gap-2 px-5 py-1  bg-blue-700/40 border rounded-2xl animate-pulse  items-center">
+                <a target='_blank' className='text-2xl hover:scale-105 duration-200 hover:transition-all hover:duration-200' href="https://www.linkedin.com/in/kevin-adonis-s%C3%A1nchez-rodr%C3%ADguez-7097b71a6/"><Linkedin/></a>
+                <a target='_blank' className='text-lg font-bold col-span-2 hover:scale-105 duration-200 hover:transition-all hover:duration-200' href="https://www.linkedin.com/in/kevin-adonis-s%C3%A1nchez-rodr%C3%ADguez-7097b71a6/">Mi LinkedIn</a>
+            </div>
+
+
+            {/* <div className="flex gap-2 px-5 py-1 border rounded-lg items-center">
+                <a target='_blank' className='text-sm hover:scale-105 duration-200 hover:transition-all hover:duration-200' href="https://www.instagram.com/lordkevin.r/"><Instagram/></a>
+                <a target='_blank' className='text-sm font-bold col-span-2 hover:scale-105 duration-200 hover:transition-all hover:duration-200' href="https://www.instagram.com/lordkevin.r/">lordkevin.r</a>
+
+            </div> */}
+
+            <div className="flex gap-2 px-5 bg-black py-1 border rounded-2xl animate-pulse items-center">
+                <a target='_blank' className='text-2xl hover:scale-105 duration-200 hover:transition-all hover:duration-200' href="https://github.com/LordKevinR"><GitHub/></a>
+                <a target='_blank' className='text-lg font-bold col-span-2 hover:scale-105 duration-200 hover:transition-all hover:duration-200' href="https://github.com/LordKevinR">LordKevinR</a>
+            </div>
+
+            <div className="flex gap-2 bg-red-500/60 px-5 py-1 border rounded-2xl animate-pulse  items-center">
+                <p className='text-2xl'><Email/></p>
+                <p className='text-lg font-bold col-span-2 break-words md:break-normal'>kevinadonis0123@gmail.com</p>
+            </div>
+
+
+        </section>
+
+
+
+
+          {/* <p className="grid md:mt-[25rem] mt-28 lg:mt-20 animate-bounce place-items-center text-5xl ">
           <FlechaAbajo/>
-          </p>
+          </p> */}
       </div>  
 
     </div>

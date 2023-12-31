@@ -5,16 +5,17 @@ import Tecnologias from './components/Tecnologias'
 import SobreMi from './components/SobreMi'
 import ProyectosEnProceso from './components/ProyectosEnProceso'
 import Contacto from './components/Contacto'
+import Freelancer from './components/Freelancer'
 
 function App() {
 
   return (
-    <div className=''>
+    <div className='bg-gray-900 px-2'>
       <Header />
-      <Proyectos />
-      <ProyectosEnProceso />
+      <Freelancer/>
+      {/* <Proyectos /> */}
+      {/* <ProyectosEnProceso /> */}
       <Tecnologias />
-      <SobreMi />
       <Contacto />
     </div>
   )
