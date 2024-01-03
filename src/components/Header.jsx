@@ -3,6 +3,7 @@ import { Linkedin } from './logos/Linkedin'
 import { Instagram } from './logos/Instagram'
 import { GitHub } from './logos/Github'
 import { Email } from './logos/Email'
+import { Link } from "react-scroll"
 
 const Header = () => {
 
@@ -21,24 +22,27 @@ const Header = () => {
 
         <div className="md:flex mt-5 md:mt-5 grid gap-3 md:gap-6 ">
 
-          <a href="#proyectos" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-slate-300">Proyectos</a>
+          <Link to="proyectos" spy={true} smooth={true} offset={50} duration={500} className="font-bold hover:scale-105 duration-200 cursor-pointer hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-slate-300">Proyectos</Link>
 
-            <a href="#tecnologias" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-indigo-400">Tecnologías</a>
+            <Link to="tecnologias" spy={true} smooth={true} offset={50} duration={500} className="font-bold hover:scale-105 cursor-pointer duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-indigo-400">Tecnologías</Link>
 
             {/* <a href="#sobremi" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-slate-300">Sobre Mi</a> */}
 
-            <a href="#contacto" className="font-bold hover:scale-105 duration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-indigo-400">Contacto</a>
+            <Link to="contacto" spy={true} smooth={true} offset={50} duration={500} className="font-bold hover:scale-105 cursor-pointerduration-200 hover:bg-slate-100/50 hover:rounded-lg hover:transition-all hover:duration-100 hover:p-2 p-2 text-2xl text-slate-300">Contacto</Link>
 
         </div>
 
       </nav>
       <div className="mt-10 md:mt-0 ">
 
-        <h1 className="font-black text-5xl animate-pulse text-slate-300  pt-10 md:pt-[10rem] xl:pt-[10rem] 2xl:pt-[15rem] text-center"
+        <div className="flex justify-center pt-10 md:pt-[10rem] xl:pt-[10rem] 2xl:pt-[15rem]">
+          <img className="w-32" src="src/img/yo.png" alt="imagen mia" />
+        </div>
+        <h1 className="font-black -mt-7 text-5xl text-slate-300 text-center"
           >Kevin Sánchez <span className="text-indigo-400">-</span> Portafolio
           </h1>
 
-          <p className="text-center mt-5 font-black text-2xl pb-10 text-slate-300">
+          <p className="text-center animate-pulse mt-5 font-black text-2xl pb-10 text-slate-300">
             Junior <span className="text-indigo-400">.NET / Fullstack</span> Developer  
           </p>
 
@@ -47,7 +51,7 @@ const Header = () => {
                 Estudiante Universitario, <span className="text-indigo-400">Programador Freelancer,</span>
             </p>
             <p className="text-white text-center font-bold text-xl">
-                Obsesionado con el estudio y del aprendizaje continuo
+                Obsesionado con el estudio y con el aprendizaje continuo
             </p>
           </div>
 

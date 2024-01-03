@@ -3,7 +3,7 @@ const Tecnologias = () => {
     <div id="tecnologias" className="bg-gray-900 pb-36">
         <h1 className="text-slate-100 font-bold text-center text-5xl pt-16">Tecnologias</h1>
 
-        <div className="md:grid max-w-[70rem] text-gray-700 md:grid-cols-2 w-[80%] rounded-lg mx-auto mt-16 text-center bg-gray-800 gap-4 p-4">
+        <div className="md:grid max-w-[70rem] text-gray-700 md:grid-cols-2 w-[95%] lg:w-[80%] rounded-lg mx-auto mt-16 text-center bg-gray-800 gap-4 p-4">
             <article className="md:mt-10">
                 <h2 className="text-2xl text-slate-300 font-bold mb-4">
                     Front<span className="text-indigo-400">-End</span>
